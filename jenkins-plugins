@@ -1,0 +1,13 @@
+workflow-aggregator
+git
+ssh
+ssh-agent
+docker-plugin
+docker-build-step
+dockerhub-notification
+docker-workflow
+oauth-credentials
+pipeline-stage-view
+blueocean
+blueocean-web
+sonar
