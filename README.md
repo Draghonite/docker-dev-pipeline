@@ -1,6 +1,6 @@
 # docker-dev-pipeline
 
-Run Jenkins in a local environment within Docker.  This is suitable for local development, learning and testing Jenkins pipelines, and is not intended for production workloads.  This assumes prior installation of Docker (Desktop) in your system.
+Run Jenkins, SonarQube and JFrog Artifactory in a local environment within Docker.  This is suitable for local development, learning and testing Jenkins pipelines, and is not intended for production workloads.  This assumes prior installation of Docker (Desktop) in your system.
 
 To start:
 1. run `sh start.sh` -- runs the installer script, configuring the Docker-in-Docker and Jenkins containers using the Dockerfile and supporting files, including jenkins-plugins
