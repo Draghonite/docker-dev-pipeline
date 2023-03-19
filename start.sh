@@ -13,8 +13,6 @@ docker run \
     --volume jenkins-docker-certs:/certs/client \
     --volume jenkins-data:/var/jenkins_home \
     --publish 2376:2376 \
-    --publish 3000:3000 \
-    --publish 5000:5000 \
     docker:dind \
     --storage-driver overlay2 
 
